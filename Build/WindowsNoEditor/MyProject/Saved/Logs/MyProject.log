@@ -1,0 +1,1737 @@
+﻿Log file open, 02/15/21 13:19:25
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.039095
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 3080
+LogInit: Compiled (64-bit): Oct 11 2020 08:22:12
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/Embry-Riddle/Desktop/SIM_350_M01.DV01_Diorama-main/ProdBuild/WindowsNoEditor/SIM_350_M2.DV1_Ethan/Build/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.15-20.19.25:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:825][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.15-20.19.25:826][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:829][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.15-20.19.25:829][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.15-20.19.25:830][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.02.15-20.19.25:830][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2021.02.15-20.19.25:830][  0]LogHAL: Display: Platform has ~ 32 GB [34281746432 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.15-20.19.25:830][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2021.02.15-20.19.25:830][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.15-20.19.25:830][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:830][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyProject/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.15-20.19.25:831][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.15-20.19.25:832][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.15-20.19.25:832][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.15-20.19.25:832][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.15-20.19.25:832][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../MyProject/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.15-20.19.25:832][  0]LogInit: Computer: EMBRY148587
+[2021.02.15-20.19.25:832][  0]LogInit: User: EmbryRiddle
+[2021.02.15-20.19.25:832][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.02.15-20.19.25:832][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.15-20.19.25:832][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.02.15-20.19.25:832][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.02.15-20.19.25:832][  0]LogMemory: Process Physical Memory: 68.14 MB used, 68.15 MB peak
+[2021.02.15-20.19.25:832][  0]LogMemory: Process Virtual Memory: 76.57 MB used, 76.57 MB peak
+[2021.02.15-20.19.25:832][  0]LogMemory: Physical Memory: 15100.55 MB used,  17593.07 MB free, 32693.62 MB total
+[2021.02.15-20.19.25:832][  0]LogMemory: Virtual Memory: 4989.08 MB used,  134212736.00 MB free, 134217728.00 MB total
+[2021.02.15-20.19.25:836][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.15-20.19.25:861][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.15-20.19.25:862][  0]LogInit: Using OS detected language (en-US).
+[2021.02.15-20.19.25:862][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.15-20.19.25:862][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.15-20.19.25:891][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.15-20.19.25:891][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.15-20.19.27:572][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.15-20.19.27:572][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.15-20.19.27:572][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.15-20.19.27:642][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3080' (Feature Level 11_0)
+[2021.02.15-20.19.27:642][  0]LogD3D11RHI:       10077/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.02.15-20.19.27:644][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.15-20.19.27:644][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.15-20.19.27:644][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.15-20.19.27:650][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.15-20.19.27:650][  0]LogD3D11RHI:     GPU DeviceId: 0x2206 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.15-20.19.27:650][  0]LogWindows: EnumDisplayDevices:
+[2021.02.15-20.19.27:650][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3080' (P:1 D:1)
+[2021.02.15-20.19.27:651][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3080' (P:0 D:1)
+[2021.02.15-20.19.27:651][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3080' (P:0 D:0)
+[2021.02.15-20.19.27:651][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3080' (P:0 D:0)
+[2021.02.15-20.19.27:651][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.15-20.19.27:651][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3080
+[2021.02.15-20.19.27:651][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2021.02.15-20.19.27:651][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2021.02.15-20.19.27:651][  0]LogRHI: Texture pool is 7053 MB (70% of 10077 MB)
+[2021.02.15-20.19.27:768][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.15-20.19.27:768][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.15-20.19.27:768][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.15-20.19.27:782][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.15-20.19.27:783][  0]LogShaderLibrary: Display: Using ../../../MyProject/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2058 unique shaders.
+[2021.02.15-20.19.27:783][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2021.02.15-20.19.27:784][  0]LogTemp: Warning: Clearing the OS Cache
+[2021.02.15-20.19.27:806][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.15-20.19.27:807][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.15-20.19.27:842][  0]LogShaderLibrary: Display: Using ../../../MyProject/Content/ShaderArchive-MyProject-PCD3D_SM5.ushaderbytecode for material shader code. Total 2401 unique shaders.
+[2021.02.15-20.19.27:842][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MyProject
+[2021.02.15-20.19.27:842][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2021.02.15-20.19.27:842][  0]LogRHI: Display: Failed to open default shader pipeline cache for MyProject using shader platform 0.
+[2021.02.15-20.19.27:842][  0]LogRHI: Display: Failed to open default shader pipeline cache for MyProject using shader platform 0.
+[2021.02.15-20.19.27:842][  0]LogInit: Using OS detected language (en-US).
+[2021.02.15-20.19.27:842][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.15-20.19.27:842][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.02.15-20.19.27:842][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.02.15-20.19.27:842][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.02.15-20.19.27:842][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.02.15-20.19.27:843][  0]LogTextLocalizationManager: Compacting localization data took   0.47ms
+[2021.02.15-20.19.27:855][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2021.02.15-20.19.27:924][  0]LogStreaming: Display: Flushing async loaders.
+[2021.02.15-20.19.27:924][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.000055 seconds
+[2021.02.15-20.19.27:931][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.02.15-20.19.27:957][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2021.02.15-20.19.28:075][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.15-20.19.28:075][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.15-20.19.28:166][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000023F061F40C0), frame # 0
+[2021.02.15-20.19.28:166][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F06362400), frame # 0
+[2021.02.15-20.19.28:167][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023F06342400), frame # 0
+[2021.02.15-20.19.28:182][  0]LogMoviePlayer: Initializing movie player
+[2021.02.15-20.19.28:201][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.15-20.19.28:201][  0]LogOcInput: OculusInput pre-init called
+[2021.02.15-20.19.28:205][  0]LogUObjectArray: 14209 objects as part of root set at end of initial load.
+[2021.02.15-20.19.28:205][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2021.02.15-20.19.28:205][  0]LogUObjectAllocator: 2870488 out of 0 bytes used by permanent object pool.
+[2021.02.15-20.19.28:205][  0]LogUObjectArray: CloseDisregardForGC: 14209/14209 objects in disregard for GC pool
+[2021.02.15-20.19.28:206][  0]LogEngine: Initializing Engine...
+[2021.02.15-20.19.28:207][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-AD98B884
+[2021.02.15-20.19.28:207][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.15-20.19.28:340][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.15-20.19.28:340][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.15-20.19.28:340][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.15-20.19.28:340][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.15-20.19.28:345][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.15-20.19.28:351][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.15-20.19.28:351][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.15-20.19.28:369][  0]LogAudioMixer: Display: Using Audio Device Index HMD (NVIDIA High Definition Audio)
+[2021.02.15-20.19.28:369][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.15-20.19.28:380][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.15-20.19.28:380][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.15-20.19.28:381][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.15-20.19.28:381][  0]LogInit: FAudioDevice initialized.
+[2021.02.15-20.19.28:381][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.15-20.19.28:381][  0]LogInit: Texture streaming: Enabled
+[2021.02.15-20.19.28:383][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-20.19.28:384][  0]LogInit: Display: Game Engine Initialized.
+[2021.02.15-20.19.28:385][  0]LogInit: Display: Starting Game.
+[2021.02.15-20.19.28:385][  0]LogNet: Browse: /Game/Caw?Name=Player
+[2021.02.15-20.19.28:385][  0]LogLoad: LoadMap: /Game/Caw?Name=Player
+[2021.02.15-20.19.28:385][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.02.15-20.19.28:386][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.15-20.19.28:386][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-20.19.28:388][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.02.15-20.19.28:429][  0]LogAIModule: Creating AISystem for world Caw
+[2021.02.15-20.19.28:429][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023F06349600), frame # 0
+[2021.02.15-20.19.28:429][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F5CCFEC00), frame # 0
+[2021.02.15-20.19.28:479][  0]LogLoad: Game class is 'BP_GM_VR_C'
+[2021.02.15-20.19.28:482][  0]LogWorld: Bringing World /Game/Caw.Caw up for play (max tick rate 0) at 2021.02.15-13.19.28
+[2021.02.15-20.19.28:483][  0]LogWorld: Bringing up level for play took: 0.003957
+[2021.02.15-20.19.28:487][  0]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2021.02.15-20.19.28:487][  0]LogLoad: Took 0.102501 seconds to LoadMap(/Game/Caw)
+[2021.02.15-20.19.28:508][  0]LogRenderer: Reallocating scene render targets to support 2560x1440 Format 10 NumSamples 1 (Frame:1).
+[2021.02.15-20.19.28:508][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2021.02.15-20.19.28:508][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2021.02.15-20.19.28:508][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2021.02.15-20.19.28:508][  0]LogLoad: (Engine Initialization) Total time: 3.43 seconds
+[2021.02.15-20.19.28:538][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
+[2021.02.15-20.19.28:538][  0]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../MyProject/Config/SteamVRBindings/steamvr_manifest.json
+[2021.02.15-20.19.28:538][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../MyProject/Config/SteamVRBindings
+[2021.02.15-20.19.28:538][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../MyProject/Config/SteamVRBindings
+[2021.02.15-20.19.28:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: C:\Users\Embry-Riddle\Desktop\SIM_350_M01.DV01_Diorama-main\ProdBuild\WindowsNoEditor\SIM_350_M2.DV1_Ethan\Build\WindowsNoEditor\MyProject\Config\SteamVRBindings\steamvr_manifest.json
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:542][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.02.15-20.19.28:543][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.02.15-20.19.28:558][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761EF840
+[2021.02.15-20.19.28:558][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761EF330
+[2021.02.15-20.19.28:558][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761EFBA0
+[2021.02.15-20.19.28:558][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761EF150
+[2021.02.15-20.19.28:558][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F5C5CAD80
+[2021.02.15-20.19.28:559][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761EDBC0
+[2021.02.15-20.19.28:559][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F5C21A430
+[2021.02.15-20.19.28:559][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F5C5CADB0
+[2021.02.15-20.19.28:559][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F0B739E80
+[2021.02.15-20.19.28:559][  0]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F761ED860
+[2021.02.15-20.19.28:559][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.15-20.19.28:560][  0]LogRenderer: Warning: Resizing VR buffer to 4936 by 2740
+[2021.02.15-20.19.28:560][  0]LogRenderer: Reallocating scene render targets to support 4936x2740 Format 10 NumSamples 1 (Frame:2).
+[2021.02.15-20.19.28:560][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-20.19.28:653][  0]LogSlate: Slate font cache was flushed
+[2021.02.15-20.19.28:655][  1]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2021.02.15-20.19.28:657][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000023F7621EDF0
+[2021.02.15-20.19.28:657][  1]LogSerialization: Warning: Attempting to load a BulkData object that cannot be loaded from disk
+[2021.02.15-20.19.28:663][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\body.obj rVertexData 0xb7f61a0 unVertexCount 5890 rIndexData 0xb8ddef0 unTriangleCount 6944 diffuseTextureId 0
+[2021.02.15-20.19.28:663][  1]LogStreaming: Display: Flushing async loaders.
+[2021.02.15-20.19.28:664][  1]LogStreaming: Error: Couldn't find file for package /SteamVR/Materials/M_DefaultDevice requested by async loading code. NameToLoad: /SteamVR/Materials/M_DefaultDevice
+[2021.02.15-20.19.28:664][  1]LogStreaming: Error: Found 0 dependent packages...
+[2021.02.15-20.19.28:664][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\button_a.obj rVertexData 0xb7b1010 unVertexCount 121 rIndexData 0xb89d980 unTriangleCount 216 diffuseTextureId 0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\button_b.obj rVertexData 0xb7b2f30 unVertexCount 121 rIndexData 0xb7ae2c0 unTriangleCount 216 diffuseTextureId 0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\led_right.obj rVertexData 0xb917cc0 unVertexCount 54 rIndexData 0x79a22470 unTriangleCount 52 diffuseTextureId 0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:664][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\gripsqueeze.obj rVertexData 0xba0e3e0 unVertexCount 308 rIndexData 0xb8ec1e0 unTriangleCount 405 diffuseTextureId 0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\button_system.obj rVertexData 0xb850e10 unVertexCount 241 rIndexData 0xb8ecb70 unTriangleCount 240 diffuseTextureId 0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\thumbstick.obj rVertexData 0xb9eee10 unVertexCount 313 rIndexData 0xb83f050 unTriangleCount 504 diffuseTextureId 0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\trackpad.obj rVertexData 0xba2e240 unVertexCount 289 rIndexData 0xb8404f0 unTriangleCount 380 diffuseTextureId 0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:665][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\trackpad_scroll_wheel.obj rVertexData 0xb742a70 unVertexCount 470 rIndexData 0xb8ba3a0 unTriangleCount 768 diffuseTextureId 0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 0000023F7621EDF0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexcontroller\resources\rendermodels\valve_controller_knu_1_0_right\trigger.obj rVertexData 0xbb4deb0 unVertexCount 289 rIndexData 0xbb502e0 unTriangleCount 404 diffuseTextureId 0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 0000023F7621EDF0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761EF840
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761EF330
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761EFBA0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761EF150
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F5C5CAD80
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761EDBC0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F5C21A430
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F5C5CADB0
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F0B739E80
+[2021.02.15-20.19.28:666][  1]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000023F761ED860
+[2021.02.15-20.19.32:190][490]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.99368
+[2021.02.15-20.19.32:191][490]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.15-20.19.32:197][491]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986675
+[2021.02.15-20.19.32:207][492]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.02.15-20.19.32:209][492]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.975175
+[2021.02.15-20.19.32:738][565]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993389
+[2021.02.15-20.19.32:745][566]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986259
+[2021.02.15-20.19.32:752][567]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.979381
+[2021.02.15-20.19.32:761][568]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.97016
+[2021.02.15-20.19.32:774][569]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.957276
+[2021.02.15-20.19.32:781][570]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.950217
+[2021.02.15-20.19.32:788][571]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.943475
+[2021.02.15-20.19.32:795][572]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.936205
+[2021.02.15-20.19.32:803][573]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.928115
+[2021.02.15-20.19.32:816][574]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.915365
+[2021.02.15-20.19.32:823][575]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.908497
+[2021.02.15-20.19.32:830][576]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.901344
+[2021.02.15-20.19.32:837][577]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.893956
+[2021.02.15-20.19.32:850][578]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.880831
+[2021.02.15-20.19.32:859][579]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.87283
+[2021.02.15-20.19.32:872][580]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.860135
+[2021.02.15-20.19.32:879][581]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.852642
+[2021.02.15-20.19.32:892][582]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.839237
+[2021.02.15-20.19.32:899][583]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.831926
+[2021.02.15-20.19.32:913][584]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.818315
+[2021.02.15-20.19.32:927][585]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.804535
+[2021.02.15-20.19.32:940][586]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.7907
+[2021.02.15-20.19.32:954][587]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.776642
+[2021.02.15-20.19.32:968][588]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.763002
+[2021.02.15-20.19.32:982][589]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.748916
+[2021.02.15-20.19.32:996][590]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.734895
+[2021.02.15-20.19.33:010][591]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.721486
+[2021.02.15-20.19.33:023][592]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.707614
+[2021.02.15-20.19.33:038][593]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.693573
+[2021.02.15-20.19.33:052][594]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.67954
+[2021.02.15-20.19.42:785][981]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993224
+[2021.02.15-20.19.42:792][982]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986401
+[2021.02.15-20.19.42:802][983]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.975853
+[2021.02.15-20.19.42:816][984]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.961828
+[2021.02.15-20.19.42:828][985]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.949706
+[2021.02.15-20.19.42:835][986]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.943606
+[2021.02.15-20.19.42:841][987]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.93668
+[2021.02.15-20.19.43:125][ 28]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993184
+[2021.02.15-20.19.43:132][ 29]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986007
+[2021.02.15-20.19.43:141][ 30]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.977863
+[2021.02.15-20.19.43:147][ 31]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.970882
+[2021.02.15-20.19.43:154][ 32]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.964266
+[2021.02.15-20.19.43:348][ 59]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993059
+[2021.02.15-20.19.43:355][ 60]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986268
+[2021.02.15-20.19.43:363][ 61]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.978027
+[2021.02.15-20.19.43:369][ 62]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.971878
+[2021.02.15-20.19.43:377][ 63]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.964676
+[2021.02.15-20.19.43:384][ 64]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.956955
+[2021.02.15-20.19.43:391][ 65]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.950586
+[2021.02.15-20.20.00:133][475]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993073
+[2021.02.15-20.20.00:140][476]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986078
+[2021.02.15-20.20.00:147][477]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.97916
+[2021.02.15-20.20.00:159][478]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.966894
+[2021.02.15-20.20.00:171][479]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.955114
+[2021.02.15-20.20.00:183][480]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.943363
+[2021.02.15-20.20.00:191][481]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.935812
+[2021.02.15-20.20.01:702][699]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.992854
+[2021.02.15-20.20.01:710][700]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.985641
+[2021.02.15-20.20.01:718][701]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.97683
+[2021.02.15-20.20.01:724][702]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.970863
+[2021.02.15-20.20.01:732][703]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.963507
+[2021.02.15-20.20.01:738][704]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.956821
+[2021.02.15-20.20.01:746][705]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.949517
+[2021.02.15-20.20.01:752][706]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.943248
+[2021.02.15-20.20.01:759][707]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.936613
+[2021.02.15-20.20.01:766][708]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.929551
+[2021.02.15-20.20.01:773][709]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.921954
+[2021.02.15-20.20.01:780][710]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.915663
+[2021.02.15-20.20.01:787][711]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.908564
+[2021.02.15-20.20.01:794][712]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.901041
+[2021.02.15-20.20.01:801][713]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.894087
+[2021.02.15-20.20.01:808][714]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.887729
+[2021.02.15-20.20.01:815][715]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.879953
+[2021.02.15-20.20.01:822][716]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.872977
+[2021.02.15-20.20.01:828][717]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.866778
+[2021.02.15-20.20.01:836][718]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.859318
+[2021.02.15-20.20.01:843][719]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.852333
+[2021.02.15-20.20.01:850][720]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.845616
+[2021.02.15-20.20.01:856][721]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.839115
+[2021.02.15-20.20.01:864][722]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.831053
+[2021.02.15-20.20.01:871][723]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.824146
+[2021.02.15-20.20.01:877][724]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.817771
+[2021.02.15-20.20.01:884][725]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.811099
+[2021.02.15-20.20.01:891][726]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.803872
+[2021.02.15-20.20.01:898][727]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.796921
+[2021.02.15-20.20.01:905][728]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.790028
+[2021.02.15-20.20.01:912][729]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.782904
+[2021.02.15-20.20.01:919][730]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.775738
+[2021.02.15-20.20.01:926][731]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.769396
+[2021.02.15-20.20.01:933][732]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.761783
+[2021.02.15-20.20.02:383][797]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.992922
+[2021.02.15-20.20.03:285][927]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993257
+[2021.02.15-20.20.04:619][119]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993118
+[2021.02.15-20.20.04:626][120]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986195
+[2021.02.15-20.20.04:635][121]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.977677
+[2021.02.15-20.20.04:641][122]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.97097
+[2021.02.15-20.20.04:648][123]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.964227
+[2021.02.15-20.20.04:655][124]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.957512
+[2021.02.15-20.20.04:661][125]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.950776
+[2021.02.15-20.20.04:668][126]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.944103
+[2021.02.15-20.20.04:675][127]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.936946
+[2021.02.15-20.20.04:682][128]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.929874
+[2021.02.15-20.20.04:689][129]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.923067
+[2021.02.15-20.20.04:696][130]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.916123
+[2021.02.15-20.20.04:704][131]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.908646
+[2021.02.15-20.20.04:710][132]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.9023
+[2021.02.15-20.20.04:717][133]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.894991
+[2021.02.15-20.20.04:724][134]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.887969
+[2021.02.15-20.20.04:731][135]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.881046
+[2021.02.15-20.20.04:738][136]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.874266
+[2021.02.15-20.20.04:745][137]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.866735
+[2021.02.15-20.20.04:752][138]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.860466
+[2021.02.15-20.20.04:758][139]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.853806
+[2021.02.15-20.20.04:766][140]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.846182
+[2021.02.15-20.20.04:773][141]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.839516
+[2021.02.15-20.20.04:780][142]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.832516
+[2021.02.15-20.20.04:787][143]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.825022
+[2021.02.15-20.20.04:794][144]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.818673
+[2021.02.15-20.20.04:800][145]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.811762
+[2021.02.15-20.20.04:807][146]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.804878
+[2021.02.15-20.20.04:815][147]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.796769
+[2021.02.15-20.20.04:821][148]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.790804
+[2021.02.15-20.20.04:829][149]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.783665
+[2021.02.15-20.20.04:836][150]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.776442
+[2021.02.15-20.20.04:843][151]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.769625
+[2021.02.15-20.20.04:850][152]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.762184
+[2021.02.15-20.20.04:857][153]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.755685
+[2021.02.15-20.20.04:864][154]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.748406
+[2021.02.15-20.20.04:870][155]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.741987
+[2021.02.15-20.20.04:877][156]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.735042
+[2021.02.15-20.20.04:884][157]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.727508
+[2021.02.15-20.20.04:891][158]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.720954
+[2021.02.15-20.20.04:898][159]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.713956
+[2021.02.15-20.20.04:905][160]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.706703
+[2021.02.15-20.20.04:913][161]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.699503
+[2021.02.15-20.20.04:920][162]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.69268
+[2021.02.15-20.20.04:926][163]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.686508
+[2021.02.15-20.20.04:933][164]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.679381
+[2021.02.15-20.20.04:940][165]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.672437
+[2021.02.15-20.20.04:947][166]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.66502
+[2021.02.15-20.20.04:954][167]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.6585
+[2021.02.15-20.20.04:961][168]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.651371
+[2021.02.15-20.20.04:968][169]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.644414
+[2021.02.15-20.20.04:975][170]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.63677
+[2021.02.15-20.20.04:983][171]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.629575
+[2021.02.15-20.20.04:989][172]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.623432
+[2021.02.15-20.20.04:996][173]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.616243
+[2021.02.15-20.20.05:002][174]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.609854
+[2021.02.15-20.20.05:009][175]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.603143
+[2021.02.15-20.20.05:016][176]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.596089
+[2021.02.15-20.20.05:024][177]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.588578
+[2021.02.15-20.20.05:030][178]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.581859
+[2021.02.15-20.20.05:037][179]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.575188
+[2021.02.15-20.20.05:044][180]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.568149
+[2021.02.15-20.20.05:051][181]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.561372
+[2021.02.15-20.20.05:058][182]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.554307
+[2021.02.15-20.20.05:065][183]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.547158
+[2021.02.15-20.20.05:072][184]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.540143
+[2021.02.15-20.20.05:079][185]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.533709
+[2021.02.15-20.20.05:085][186]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.526778
+[2021.02.15-20.20.05:092][187]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.519924
+[2021.02.15-20.20.05:100][188]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.512738
+[2021.02.15-20.20.05:106][189]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.505963
+[2021.02.15-20.20.05:114][190]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.498704
+[2021.02.15-20.20.05:121][191]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.491701
+[2021.02.15-20.20.05:127][192]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.485233
+[2021.02.15-20.20.05:134][193]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.478044
+[2021.02.15-20.20.05:141][194]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.47119
+[2021.02.15-20.20.05:148][195]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.464581
+[2021.02.15-20.20.05:155][196]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.456988
+[2021.02.15-20.20.05:162][197]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.450433
+[2021.02.15-20.20.05:168][198]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.443749
+[2021.02.15-20.20.05:176][199]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.436707
+[2021.02.15-20.20.05:183][200]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.429343
+[2021.02.15-20.20.05:191][201]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.421637
+[2021.02.15-20.20.05:197][202]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.415123
+[2021.02.15-20.20.05:204][203]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.407957
+[2021.02.15-20.20.05:211][204]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.401457
+[2021.02.15-20.20.05:217][205]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.394937
+[2021.02.15-20.20.05:224][206]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.387733
+[2021.02.15-20.20.05:231][207]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.380812
+[2021.02.15-20.20.05:238][208]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.374136
+[2021.02.15-20.20.05:245][209]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.367284
+[2021.02.15-20.20.05:252][210]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.359895
+[2021.02.15-20.20.05:259][211]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.353341
+[2021.02.15-20.20.05:266][212]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.346323
+[2021.02.15-20.20.05:273][213]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.339288
+[2021.02.15-20.20.05:280][214]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.332581
+[2021.02.15-20.20.05:287][215]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.3253
+[2021.02.15-20.20.05:294][216]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.31859
+[2021.02.15-20.20.05:301][217]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.311228
+[2021.02.15-20.20.05:307][218]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.304757
+[2021.02.15-20.20.05:314][219]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.297911
+[2021.02.15-20.20.05:322][220]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.290473
+[2021.02.15-20.20.05:329][221]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.283641
+[2021.02.15-20.20.05:335][222]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.276666
+[2021.02.15-20.20.05:342][223]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.269905
+[2021.02.15-20.20.05:349][224]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.262987
+[2021.02.15-20.20.05:356][225]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.256042
+[2021.02.15-20.20.05:363][226]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.248801
+[2021.02.15-20.20.05:370][227]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.242229
+[2021.02.15-20.20.05:377][228]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.235205
+[2021.02.15-20.20.05:384][229]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.227884
+[2021.02.15-20.20.05:391][230]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.221074
+[2021.02.15-20.20.05:398][231]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.214293
+[2021.02.15-20.20.05:405][232]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.206944
+[2021.02.15-20.20.05:412][233]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.200269
+[2021.02.15-20.20.05:419][234]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.193543
+[2021.02.15-20.20.05:426][235]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.18652
+[2021.02.15-20.20.05:433][236]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.179493
+[2021.02.15-20.20.05:439][237]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.172803
+[2021.02.15-20.20.05:446][238]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.165802
+[2021.02.15-20.20.05:454][239]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.158592
+[2021.02.15-20.20.05:460][240]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.152049
+[2021.02.15-20.20.05:467][241]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.14496
+[2021.02.15-20.20.05:474][242]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.13788
+[2021.02.15-20.20.05:481][243]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.130803
+[2021.02.15-20.20.05:488][244]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.124058
+[2021.02.15-20.20.05:495][245]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.117192
+[2021.02.15-20.20.05:502][246]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.109904
+[2021.02.15-20.20.05:509][247]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.103442
+[2021.02.15-20.20.05:516][248]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.096347
+[2021.02.15-20.20.05:523][249]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.089107
+[2021.02.15-20.20.05:530][250]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.08205
+[2021.02.15-20.20.05:537][251]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.07532
+[2021.02.15-20.20.05:544][252]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.067599
+[2021.02.15-20.20.05:551][253]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.061079
+[2021.02.15-20.20.05:557][254]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.054591
+[2021.02.15-20.20.05:564][255]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.04788
+[2021.02.15-20.20.05:571][256]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.040834
+[2021.02.15-20.20.05:578][257]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.034189
+[2021.02.15-20.20.05:585][258]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.0271
+[2021.02.15-20.20.05:593][259]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.019343
+[2021.02.15-20.20.05:599][260]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.013226
+[2021.02.15-20.20.05:606][261]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.005982
+[2021.02.15-20.20.05:613][262]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.998614
+[2021.02.15-20.20.05:620][263]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.992351
+[2021.02.15-20.20.05:626][264]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.985658
+[2021.02.15-20.20.05:634][265]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.978371
+[2021.02.15-20.20.05:640][266]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.971597
+[2021.02.15-20.20.05:647][267]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.964642
+[2021.02.15-20.20.05:655][268]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.957213
+[2021.02.15-20.20.05:661][269]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.950526
+[2021.02.15-20.20.05:668][270]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.943858
+[2021.02.15-20.20.05:675][271]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.936918
+[2021.02.15-20.20.05:682][272]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.929707
+[2021.02.15-20.20.05:689][273]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.922784
+[2021.02.15-20.20.05:696][274]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.91593
+[2021.02.15-20.20.05:703][275]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.908886
+[2021.02.15-20.20.05:710][276]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.902197
+[2021.02.15-20.20.05:717][277]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.895337
+[2021.02.15-20.20.05:724][278]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.887831
+[2021.02.15-20.20.05:731][279]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.881271
+[2021.02.15-20.20.05:737][280]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.874584
+[2021.02.15-20.20.05:745][281]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.867193
+[2021.02.15-20.20.05:751][282]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.860445
+[2021.02.15-20.20.05:758][283]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.853484
+[2021.02.15-20.20.05:765][284]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.846846
+[2021.02.15-20.20.05:772][285]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.839773
+[2021.02.15-20.20.05:779][286]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.83296
+[2021.02.15-20.20.05:786][287]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.825848
+[2021.02.15-20.20.05:793][288]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.818772
+[2021.02.15-20.20.05:800][289]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.812075
+[2021.02.15-20.20.05:807][290]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.805096
+[2021.02.15-20.20.05:814][291]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.797861
+[2021.02.15-20.20.05:820][292]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.791035
+[2021.02.15-20.20.05:827][293]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.784081
+[2021.02.15-20.20.05:834][294]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.777123
+[2021.02.15-20.20.05:841][295]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.769977
+[2021.02.15-20.20.05:848][296]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.763199
+[2021.02.15-20.20.05:855][297]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.756256
+[2021.02.15-20.20.05:862][298]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.749058
+[2021.02.15-20.20.05:869][299]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.742245
+[2021.02.15-20.20.05:876][300]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.735068
+[2021.02.15-20.20.05:884][301]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.728043
+[2021.02.15-20.20.05:891][302]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.721475
+[2021.02.15-20.20.05:898][303]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.714646
+[2021.02.15-20.20.05:905][304]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.707721
+[2021.02.15-20.20.05:911][305]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.700742
+[2021.02.15-20.20.05:918][306]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.693978
+[2021.02.15-20.20.05:925][307]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.687041
+[2021.02.15-20.20.05:932][308]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.679771
+[2021.02.15-20.20.05:939][309]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.67312
+[2021.02.15-20.20.05:946][310]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.665971
+[2021.02.15-20.20.05:953][311]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.65898
+[2021.02.15-20.20.05:960][312]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.652372
+[2021.02.15-20.20.05:967][313]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.645324
+[2021.02.15-20.20.05:974][314]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.638111
+[2021.02.15-20.20.05:981][315]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.631231
+[2021.02.15-20.20.05:988][316]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.624207
+[2021.02.15-20.20.05:995][317]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.617511
+[2021.02.15-20.20.06:002][318]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.610345
+[2021.02.15-20.20.06:009][319]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.603378
+[2021.02.15-20.20.06:016][320]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.596442
+[2021.02.15-20.20.06:023][321]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.589384
+[2021.02.15-20.20.06:030][322]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.582685
+[2021.02.15-20.20.06:036][323]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.575698
+[2021.02.15-20.20.06:044][324]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.568679
+[2021.02.15-20.20.06:050][325]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.56178
+[2021.02.15-20.20.06:058][326]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.554648
+[2021.02.15-20.20.06:065][327]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.547653
+[2021.02.15-20.20.06:071][328]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.540794
+[2021.02.15-20.20.06:078][329]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.534076
+[2021.02.15-20.20.06:085][330]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.526908
+[2021.02.15-20.20.06:093][331]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.519601
+[2021.02.15-20.20.06:099][332]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.513036
+[2021.02.15-20.20.06:106][333]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.505972
+[2021.02.15-20.20.06:113][334]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.498995
+[2021.02.15-20.20.06:120][335]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.4921
+[2021.02.15-20.20.06:127][336]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.485397
+[2021.02.15-20.20.06:134][337]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.47819
+[2021.02.15-20.20.06:141][338]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.470992
+[2021.02.15-20.20.06:148][339]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.464361
+[2021.02.15-20.20.06:155][340]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.457015
+[2021.02.15-20.20.06:162][341]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.450014
+[2021.02.15-20.20.06:169][342]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.443561
+[2021.02.15-20.20.06:176][343]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.4365
+[2021.02.15-20.20.06:183][344]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.428907
+[2021.02.15-20.20.06:190][345]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.422431
+[2021.02.15-20.20.06:197][346]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.415352
+[2021.02.15-20.20.06:205][347]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.407682
+[2021.02.15-20.20.06:211][348]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.401365
+[2021.02.15-20.20.06:219][349]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.39343
+[2021.02.15-20.20.06:224][350]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.387341
+[2021.02.15-20.20.06:231][351]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.380169
+[2021.02.15-20.20.06:238][352]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.373379
+[2021.02.15-20.20.06:245][353]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.366501
+[2021.02.15-20.20.06:252][354]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.359497
+[2021.02.15-20.20.06:259][355]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.352526
+[2021.02.15-20.20.06:266][356]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.345203
+[2021.02.15-20.20.06:273][357]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.338586
+[2021.02.15-20.20.06:280][358]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.331713
+[2021.02.15-20.20.06:287][359]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.324873
+[2021.02.15-20.20.06:294][360]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.317654
+[2021.02.15-20.20.06:301][361]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.310746
+[2021.02.15-20.20.06:308][362]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.304079
+[2021.02.15-20.20.06:315][363]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.296993
+[2021.02.15-20.20.06:321][364]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.290263
+[2021.02.15-20.20.06:328][365]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.283148
+[2021.02.15-20.20.06:335][366]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.276192
+[2021.02.15-20.20.06:342][367]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.269435
+[2021.02.15-20.20.06:349][368]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.262512
+[2021.02.15-20.20.06:356][369]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.255709
+[2021.02.15-20.20.06:363][370]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.248385
+[2021.02.15-20.20.06:370][371]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.241906
+[2021.02.15-20.20.06:377][372]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.234626
+[2021.02.15-20.20.06:384][373]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.227774
+[2021.02.15-20.20.06:391][374]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.220774
+[2021.02.15-20.20.06:398][375]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.213806
+[2021.02.15-20.20.06:405][376]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.206671
+[2021.02.15-20.20.06:412][377]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.199722
+[2021.02.15-20.20.06:419][378]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.193002
+[2021.02.15-20.20.06:426][379]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.185955
+[2021.02.15-20.20.06:433][380]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.1788
+[2021.02.15-20.20.06:439][381]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.172178
+[2021.02.15-20.20.06:446][382]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.165234
+[2021.02.15-20.20.06:453][383]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.158292
+[2021.02.15-20.20.06:460][384]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.151361
+[2021.02.15-20.20.06:467][385]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.144437
+[2021.02.15-20.20.06:474][386]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.137513
+[2021.02.15-20.20.06:481][387]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.130399
+[2021.02.15-20.20.06:488][388]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.123455
+[2021.02.15-20.20.06:495][389]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.116714
+[2021.02.15-20.20.06:502][390]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.10985
+[2021.02.15-20.20.06:509][391]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.102936
+[2021.02.15-20.20.06:516][392]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.095361
+[2021.02.15-20.20.06:523][393]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.08821
+[2021.02.15-20.20.06:531][394]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.080813
+[2021.02.15-20.20.06:538][395]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.074372
+[2021.02.15-20.20.06:544][396]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.067477
+[2021.02.15-20.20.06:551][397]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.060561
+[2021.02.15-20.20.06:558][398]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.053677
+[2021.02.15-20.20.06:565][399]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.046759
+[2021.02.15-20.20.06:572][400]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.039834
+[2021.02.15-20.20.06:579][401]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.032917
+[2021.02.15-20.20.06:586][402]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.025935
+[2021.02.15-20.20.06:593][403]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.01899
+[2021.02.15-20.20.06:600][404]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.012192
+[2021.02.15-20.20.06:607][405]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.005234
+[2021.02.15-20.20.06:614][406]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.998374
+[2021.02.15-20.20.06:620][407]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.991508
+[2021.02.15-20.20.06:627][408]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.98457
+[2021.02.15-20.20.06:634][409]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.977674
+[2021.02.15-20.20.06:641][410]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.970644
+[2021.02.15-20.20.06:648][411]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.963721
+[2021.02.15-20.20.06:655][412]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.956791
+[2021.02.15-20.20.06:662][413]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.949772
+[2021.02.15-20.20.06:669][414]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.942875
+[2021.02.15-20.20.06:676][415]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.936114
+[2021.02.15-20.20.06:683][416]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.929152
+[2021.02.15-20.20.06:690][417]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.922304
+[2021.02.15-20.20.06:697][418]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.9153
+[2021.02.15-20.20.06:704][419]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.908385
+[2021.02.15-20.20.06:711][420]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.9013
+[2021.02.15-20.20.06:717][421]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.894572
+[2021.02.15-20.20.06:725][422]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.887286
+[2021.02.15-20.20.06:731][423]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.880538
+[2021.02.15-20.20.06:738][424]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.873612
+[2021.02.15-20.20.06:745][425]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.866717
+[2021.02.15-20.20.06:752][426]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.859656
+[2021.02.15-20.20.06:759][427]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.85295
+[2021.02.15-20.20.06:766][428]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.845972
+[2021.02.15-20.20.06:773][429]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.838938
+[2021.02.15-20.20.06:780][430]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.832089
+[2021.02.15-20.20.06:787][431]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.825196
+[2021.02.15-20.20.06:794][432]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.818161
+[2021.02.15-20.20.06:801][433]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.811119
+[2021.02.15-20.20.06:807][434]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.804397
+[2021.02.15-20.20.06:814][435]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.797424
+[2021.02.15-20.20.06:822][436]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.790009
+[2021.02.15-20.20.06:828][437]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.783681
+[2021.02.15-20.20.06:836][438]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.776184
+[2021.02.15-20.20.06:843][439]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.769283
+[2021.02.15-20.20.06:849][440]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.762681
+[2021.02.15-20.20.06:857][441]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.755169
+[2021.02.15-20.20.06:864][442]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.748084
+[2021.02.15-20.20.06:870][443]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.741579
+[2021.02.15-20.20.06:877][444]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.734724
+[2021.02.15-20.20.06:884][445]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.727582
+[2021.02.15-20.20.06:891][446]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.720847
+[2021.02.15-20.20.06:898][447]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.713845
+[2021.02.15-20.20.06:905][448]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.706851
+[2021.02.15-20.20.06:912][449]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.699629
+[2021.02.15-20.20.06:919][450]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.692983
+[2021.02.15-20.20.06:926][451]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.686051
+[2021.02.15-20.20.06:933][452]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.678991
+[2021.02.15-20.20.06:940][453]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.672177
+[2021.02.15-20.20.06:947][454]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.66524
+[2021.02.15-20.20.06:954][455]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.658043
+[2021.02.15-20.20.06:961][456]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.651359
+[2021.02.15-20.20.07:453][527]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.992752
+[2021.02.15-20.20.07:459][528]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986321
+[2021.02.15-20.20.07:467][529]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.979242
+[2021.02.15-20.20.07:475][530]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.970473
+[2021.02.15-20.20.07:482][531]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.964225
+[2021.02.15-20.20.07:489][532]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.956845
+[2021.02.15-20.20.07:496][533]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.94991
+[2021.02.15-20.20.07:503][534]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.94304
+[2021.02.15-20.20.07:510][535]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.936199
+[2021.02.15-20.20.07:516][536]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.929313
+[2021.02.15-20.20.07:524][537]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.922258
+[2021.02.15-20.20.07:531][538]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.914835
+[2021.02.15-20.20.07:538][539]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.908052
+[2021.02.15-20.20.07:545][540]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.901176
+[2021.02.15-20.20.07:551][541]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.894384
+[2021.02.15-20.20.07:558][542]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.887593
+[2021.02.15-20.20.07:565][543]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.88072
+[2021.02.15-20.20.07:572][544]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.873886
+[2021.02.15-20.20.07:579][545]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.867067
+[2021.02.15-20.20.07:585][546]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.860267
+[2021.02.15-20.20.07:592][547]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.853481
+[2021.02.15-20.20.07:599][548]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.846734
+[2021.02.15-20.20.07:606][549]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.839662
+[2021.02.15-20.20.07:613][550]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.832283
+[2021.02.15-20.20.07:620][551]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.825734
+[2021.02.15-20.20.07:627][552]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.818576
+[2021.02.15-20.20.07:634][553]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.811795
+[2021.02.15-20.20.07:641][554]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.804958
+[2021.02.15-20.20.07:648][555]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.797868
+[2021.02.15-20.20.07:655][556]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.790719
+[2021.02.15-20.20.07:661][557]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.78424
+[2021.02.15-20.20.07:668][558]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.777216
+[2021.02.15-20.20.07:675][559]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.770329
+[2021.02.15-20.20.07:683][560]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.762908
+[2021.02.15-20.20.07:690][561]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.755956
+[2021.02.15-20.20.07:697][562]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.749044
+[2021.02.15-20.20.07:704][563]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.742091
+[2021.02.15-20.20.07:710][564]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.735227
+[2021.02.15-20.20.07:717][565]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.728347
+[2021.02.15-20.20.07:725][566]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.721186
+[2021.02.15-20.20.07:731][567]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.714361
+[2021.02.15-20.20.07:738][568]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.707465
+[2021.02.15-20.20.07:745][569]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.700539
+[2021.02.15-20.20.07:753][570]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.693151
+[2021.02.15-20.20.07:759][571]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.686204
+[2021.02.15-20.20.07:766][572]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.679374
+[2021.02.15-20.20.07:773][573]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.67248
+[2021.02.15-20.20.07:780][574]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.665684
+[2021.02.15-20.20.07:787][575]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.658724
+[2021.02.15-20.20.07:794][576]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.651866
+[2021.02.15-20.20.07:801][577]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.645021
+[2021.02.15-20.20.07:808][578]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.638011
+[2021.02.15-20.20.07:814][579]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.631203
+[2021.02.15-20.20.07:822][580]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.623556
+[2021.02.15-20.20.07:831][581]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.614956
+[2021.02.15-20.20.07:843][582]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.602908
+[2021.02.15-20.20.07:849][583]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.5964
+[2021.02.15-20.20.07:856][584]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.589377
+[2021.02.15-20.20.07:864][585]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.581828
+[2021.02.15-20.20.07:871][586]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.574752
+[2021.02.15-20.20.07:878][587]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.567881
+[2021.02.15-20.20.07:885][588]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.561053
+[2021.02.15-20.20.07:892][589]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.554242
+[2021.02.15-20.20.07:899][590]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.547254
+[2021.02.15-20.20.07:905][591]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.540329
+[2021.02.15-20.20.07:912][592]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.533499
+[2021.02.15-20.20.07:919][593]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.526636
+[2021.02.15-20.20.07:926][594]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.519783
+[2021.02.15-20.20.07:933][595]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.512896
+[2021.02.15-20.20.07:940][596]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.506058
+[2021.02.15-20.20.07:947][597]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.499242
+[2021.02.15-20.20.07:954][598]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.492266
+[2021.02.15-20.20.07:960][599]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.485336
+[2021.02.15-20.20.07:967][600]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.478508
+[2021.02.15-20.20.07:975][601]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.471272
+[2021.02.15-20.20.07:981][602]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.464331
+[2021.02.15-20.20.07:988][603]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.457754
+[2021.02.15-20.20.07:995][604]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.45035
+[2021.02.15-20.20.08:002][605]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.443324
+[2021.02.15-20.20.08:010][606]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.436205
+[2021.02.15-20.20.08:017][607]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.429283
+[2021.02.15-20.20.08:023][608]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.422351
+[2021.02.15-20.20.08:030][609]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.41541
+[2021.02.15-20.20.08:037][610]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.408433
+[2021.02.15-20.20.08:044][611]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.401364
+[2021.02.15-20.20.08:052][612]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.394069
+[2021.02.15-20.20.08:059][613]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.387119
+[2021.02.15-20.20.08:066][614]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.380063
+[2021.02.15-20.20.08:073][615]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.373131
+[2021.02.15-20.20.08:080][616]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.36622
+[2021.02.15-20.20.08:086][617]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.359355
+[2021.02.15-20.20.08:093][618]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.352407
+[2021.02.15-20.20.08:100][619]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.3455
+[2021.02.15-20.20.08:107][620]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.338608
+[2021.02.15-20.20.08:114][621]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.331713
+[2021.02.15-20.20.08:121][622]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.324857
+[2021.02.15-20.20.08:128][623]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.31784
+[2021.02.15-20.20.08:135][624]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.311009
+[2021.02.15-20.20.08:142][625]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.304048
+[2021.02.15-20.20.08:149][626]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.297166
+[2021.02.15-20.20.08:156][627]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.290231
+[2021.02.15-20.20.08:162][628]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.283305
+[2021.02.15-20.20.08:169][629]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.276342
+[2021.02.15-20.20.08:176][630]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.269462
+[2021.02.15-20.20.08:183][631]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.262295
+[2021.02.15-20.20.08:190][632]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.25547
+[2021.02.15-20.20.08:198][633]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.247893
+[2021.02.15-20.20.08:205][634]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.240954
+[2021.02.15-20.20.08:212][635]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.234016
+[2021.02.15-20.20.08:219][636]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.227082
+[2021.02.15-20.20.08:225][637]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.220111
+[2021.02.15-20.20.08:232][638]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.213238
+[2021.02.15-20.20.08:239][639]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.206208
+[2021.02.15-20.20.08:246][640]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.199336
+[2021.02.15-20.20.08:253][641]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.192374
+[2021.02.15-20.20.08:260][642]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.185441
+[2021.02.15-20.20.08:267][643]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.17857
+[2021.02.15-20.20.08:274][644]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.171691
+[2021.02.15-20.20.08:281][645]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.164714
+[2021.02.15-20.20.08:288][646]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.157717
+[2021.02.15-20.20.08:295][647]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.150763
+[2021.02.15-20.20.08:301][648]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.143834
+[2021.02.15-20.20.08:308][649]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.136858
+[2021.02.15-20.20.08:315][650]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.129908
+[2021.02.15-20.20.08:322][651]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.122921
+[2021.02.15-20.20.08:329][652]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.116047
+[2021.02.15-20.20.08:336][653]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.10902
+[2021.02.15-20.20.08:343][654]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.102012
+[2021.02.15-20.20.08:350][655]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.095081
+[2021.02.15-20.20.08:357][656]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.088096
+[2021.02.15-20.20.08:364][657]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.081228
+[2021.02.15-20.20.08:371][658]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.074226
+[2021.02.15-20.20.08:378][659]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.067419
+[2021.02.15-20.20.08:385][660]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.060466
+[2021.02.15-20.20.08:392][661]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.05353
+[2021.02.15-20.20.08:399][662]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.046623
+[2021.02.15-20.20.08:406][663]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.039706
+[2021.02.15-20.20.08:412][664]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.032849
+[2021.02.15-20.20.08:419][665]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.025917
+[2021.02.15-20.20.08:426][666]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.018954
+[2021.02.15-20.20.08:433][667]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.012066
+[2021.02.15-20.20.08:440][668]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.005082
+[2021.02.15-20.20.08:447][669]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.998153
+[2021.02.15-20.20.08:454][670]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.991203
+[2021.02.15-20.20.08:461][671]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.984334
+[2021.02.15-20.20.08:468][672]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.97731
+[2021.02.15-20.20.08:475][673]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.970403
+[2021.02.15-20.20.08:482][674]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.963356
+[2021.02.15-20.20.08:489][675]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.95634
+[2021.02.15-20.20.08:496][676]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.94935
+[2021.02.15-20.20.08:503][677]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.942374
+[2021.02.15-20.20.08:510][678]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.935317
+[2021.02.15-20.20.08:517][679]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.928367
+[2021.02.15-20.20.08:524][680]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.921334
+[2021.02.15-20.20.08:531][681]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.914355
+[2021.02.15-20.20.08:539][682]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.906655
+[2021.02.15-20.20.08:551][683]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.894909
+[2021.02.15-20.20.08:558][684]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.887625
+[2021.02.15-20.20.08:565][685]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.880675
+[2021.02.15-20.20.08:573][686]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.873323
+[2021.02.15-20.20.08:580][687]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.866034
+[2021.02.15-20.20.08:586][688]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.859582
+[2021.02.15-20.20.08:593][689]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.852616
+[2021.02.15-20.20.08:600][690]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.845504
+[2021.02.15-20.20.08:607][691]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.838353
+[2021.02.15-20.20.08:614][692]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.831556
+[2021.02.15-20.20.08:621][693]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.824523
+[2021.02.15-20.20.08:628][694]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.817571
+[2021.02.15-20.20.08:635][695]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.810681
+[2021.02.15-20.20.08:642][696]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.803682
+[2021.02.15-20.20.08:649][697]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.796733
+[2021.02.15-20.20.08:656][698]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.789763
+[2021.02.15-20.20.08:663][699]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.782764
+[2021.02.15-20.20.08:670][700]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.775833
+[2021.02.15-20.20.08:677][701]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.768798
+[2021.02.15-20.20.08:684][702]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.761794
+[2021.02.15-20.20.08:691][703]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.754893
+[2021.02.15-20.20.08:698][704]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.747879
+[2021.02.15-20.20.08:705][705]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.740878
+[2021.02.15-20.20.08:712][706]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.733893
+[2021.02.15-20.20.08:719][707]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.726964
+[2021.02.15-20.20.08:726][708]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.719987
+[2021.02.15-20.20.08:733][709]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.713053
+[2021.02.15-20.20.08:740][710]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.70614
+[2021.02.15-20.20.08:747][711]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.699174
+[2021.02.15-20.20.08:754][712]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.69216
+[2021.02.15-20.20.08:761][713]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.685224
+[2021.02.15-20.20.08:768][714]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.678296
+[2021.02.15-20.20.08:774][715]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.67139
+[2021.02.15-20.20.08:781][716]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.664338
+[2021.02.15-20.20.08:788][717]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.657484
+[2021.02.15-20.20.08:795][718]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.650484
+[2021.02.15-20.20.08:802][719]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.643529
+[2021.02.15-20.20.08:809][720]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.63656
+[2021.02.15-20.20.08:816][721]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.6296
+[2021.02.15-20.20.08:823][722]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.622538
+[2021.02.15-20.20.08:830][723]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.61565
+[2021.02.15-20.20.08:837][724]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.608481
+[2021.02.15-20.20.08:844][725]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.601496
+[2021.02.15-20.20.08:851][726]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.594614
+[2021.02.15-20.20.08:858][727]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.587548
+[2021.02.15-20.20.08:870][728]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.575615
+[2021.02.15-20.20.08:877][729]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.568676
+[2021.02.15-20.20.08:884][730]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.561386
+[2021.02.15-20.20.08:891][731]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.554521
+[2021.02.15-20.20.08:898][732]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.547511
+[2021.02.15-20.20.08:905][733]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.540629
+[2021.02.15-20.20.08:912][734]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.533583
+[2021.02.15-20.20.08:919][735]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.526722
+[2021.02.15-20.20.08:926][736]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.519766
+[2021.02.15-20.20.08:933][737]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.512593
+[2021.02.15-20.20.08:940][738]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.505904
+[2021.02.15-20.20.08:947][739]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.498934
+[2021.02.15-20.20.08:954][740]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.491889
+[2021.02.15-20.20.08:961][741]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.484758
+[2021.02.15-20.20.08:968][742]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.477877
+[2021.02.15-20.20.08:975][743]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.470803
+[2021.02.15-20.20.08:982][744]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.463735
+[2021.02.15-20.20.08:989][745]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.456621
+[2021.02.15-20.20.08:996][746]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.449611
+[2021.02.15-20.20.09:003][747]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.442589
+[2021.02.15-20.20.09:011][748]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.435483
+[2021.02.15-20.20.09:018][749]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.428416
+[2021.02.15-20.20.09:025][750]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.421477
+[2021.02.15-20.20.09:031][751]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.414496
+[2021.02.15-20.20.09:039][752]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.407471
+[2021.02.15-20.20.09:046][753]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.400511
+[2021.02.15-20.20.09:052][754]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.39359
+[2021.02.15-20.20.09:059][755]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.386591
+[2021.02.15-20.20.09:066][756]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.379693
+[2021.02.15-20.20.09:073][757]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.372772
+[2021.02.15-20.20.09:081][758]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.365442
+[2021.02.15-20.20.09:087][759]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.358514
+[2021.02.15-20.20.09:094][760]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.351547
+[2021.02.15-20.20.09:101][761]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.344568
+[2021.02.15-20.20.09:114][762]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.332305
+[2021.02.15-20.20.09:121][763]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.325465
+[2021.02.15-20.20.09:127][764]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.318656
+[2021.02.15-20.20.09:135][765]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.311323
+[2021.02.15-20.20.09:141][766]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.304735
+[2021.02.15-20.20.09:148][767]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.297708
+[2021.02.15-20.20.09:155][768]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.290472
+[2021.02.15-20.20.09:162][769]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.283713
+[2021.02.15-20.20.09:169][770]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.276835
+[2021.02.15-20.20.09:176][771]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.269919
+[2021.02.15-20.20.09:183][772]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.262746
+[2021.02.15-20.20.09:190][773]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.255895
+[2021.02.15-20.20.09:198][774]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.248426
+[2021.02.15-20.20.09:204][775]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.241478
+[2021.02.15-20.20.09:211][776]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.23455
+[2021.02.15-20.20.09:218][777]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.227637
+[2021.02.15-20.20.09:225][778]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.220729
+[2021.02.15-20.20.09:232][779]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.213756
+[2021.02.15-20.20.09:239][780]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.206847
+[2021.02.15-20.20.09:246][781]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.199944
+[2021.02.15-20.20.09:253][782]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.193042
+[2021.02.15-20.20.09:260][783]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.186128
+[2021.02.15-20.20.09:267][784]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.179111
+[2021.02.15-20.20.09:274][785]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.172154
+[2021.02.15-20.20.09:281][786]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.16519
+[2021.02.15-20.20.09:288][787]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.158298
+[2021.02.15-20.20.09:294][788]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.151373
+[2021.02.15-20.20.09:301][789]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.144423
+[2021.02.15-20.20.09:308][790]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.137482
+[2021.02.15-20.20.09:315][791]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.130608
+[2021.02.15-20.20.09:322][792]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.12369
+[2021.02.15-20.20.09:329][793]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.1168
+[2021.02.15-20.20.09:336][794]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.109898
+[2021.02.15-20.20.09:343][795]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.102716
+[2021.02.15-20.20.09:350][796]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.096063
+[2021.02.15-20.20.09:357][797]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.089217
+[2021.02.15-20.20.09:364][798]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.081675
+[2021.02.15-20.20.09:370][799]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.075486
+[2021.02.15-20.20.09:377][800]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.068577
+[2021.02.15-20.20.09:384][801]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.061369
+[2021.02.15-20.20.09:392][802]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.054271
+[2021.02.15-20.20.09:399][803]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.047311
+[2021.02.15-20.20.09:406][804]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.040277
+[2021.02.15-20.20.09:412][805]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.033377
+[2021.02.15-20.20.09:419][806]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.026587
+[2021.02.15-20.20.09:426][807]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.019746
+[2021.02.15-20.20.09:433][808]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.012798
+[2021.02.15-20.20.09:440][809]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 1.005788
+[2021.02.15-20.20.09:447][810]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.999028
+[2021.02.15-20.20.09:454][811]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.991941
+[2021.02.15-20.20.09:461][812]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.985234
+[2021.02.15-20.20.09:467][813]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.978373
+[2021.02.15-20.20.09:475][814]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.971109
+[2021.02.15-20.20.09:482][815]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.964046
+[2021.02.15-20.20.09:489][816]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.957168
+[2021.02.15-20.20.09:495][817]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.950317
+[2021.02.15-20.20.09:502][818]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.943341
+[2021.02.15-20.20.09:509][819]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.93643
+[2021.02.15-20.20.09:516][820]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.929558
+[2021.02.15-20.20.09:523][821]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.922408
+[2021.02.15-20.20.09:531][822]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.914921
+[2021.02.15-20.20.09:538][823]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.907793
+[2021.02.15-20.20.09:545][824]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.90073
+[2021.02.15-20.20.09:552][825]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.893713
+[2021.02.15-20.20.09:559][826]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.886749
+[2021.02.15-20.20.09:566][827]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.879779
+[2021.02.15-20.20.09:573][828]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.872835
+[2021.02.15-20.20.09:580][829]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.865772
+[2021.02.15-20.20.09:587][830]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.858672
+[2021.02.15-20.20.09:594][831]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.851708
+[2021.02.15-20.20.09:601][832]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.844871
+[2021.02.15-20.20.09:608][833]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.837713
+[2021.02.15-20.20.09:615][834]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.830909
+[2021.02.15-20.20.09:622][835]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.823805
+[2021.02.15-20.20.09:629][836]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.81701
+[2021.02.15-20.20.09:636][837]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.809943
+[2021.02.15-20.20.09:643][838]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.803099
+[2021.02.15-20.20.09:649][839]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.796195
+[2021.02.15-20.20.09:657][840]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.789068
+[2021.02.15-20.20.09:663][841]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.782117
+[2021.02.15-20.20.09:670][842]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.775145
+[2021.02.15-20.20.09:677][843]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.768177
+[2021.02.15-20.20.09:690][844]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.756059
+[2021.02.15-20.20.09:697][845]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.749054
+[2021.02.15-20.20.09:704][846]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.741932
+[2021.02.15-20.20.09:711][847]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.734956
+[2021.02.15-20.20.09:717][848]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.728376
+[2021.02.15-20.20.09:724][849]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.72128
+[2021.02.15-20.20.09:732][850]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.714069
+[2021.02.15-20.20.09:738][851]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.707581
+[2021.02.15-20.20.09:745][852]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.700313
+[2021.02.15-20.20.09:752][853]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.693368
+[2021.02.15-20.20.09:759][854]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.686624
+[2021.02.15-20.20.09:766][855]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.679142
+[2021.02.15-20.20.09:774][856]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.672087
+[2021.02.15-20.20.09:781][857]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.66506
+[2021.02.15-20.20.09:788][858]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.658086
+[2021.02.15-20.20.09:794][859]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.651126
+[2021.02.15-20.20.09:801][860]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.644147
+[2021.02.15-20.20.09:808][861]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.637157
+[2021.02.15-20.20.09:815][862]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.630213
+[2021.02.15-20.20.09:822][863]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.623199
+[2021.02.15-20.20.09:829][864]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.616147
+[2021.02.15-20.20.09:837][865]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.609072
+[2021.02.15-20.20.09:844][866]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.60205
+[2021.02.15-20.20.09:851][867]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.595006
+[2021.02.15-20.20.09:858][868]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.588046
+[2021.02.15-20.20.09:865][869]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.580919
+[2021.02.15-20.20.09:873][870]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.572893
+[2021.02.15-20.20.09:885][871]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.561173
+[2021.02.15-20.20.09:891][872]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.554369
+[2021.02.15-20.20.09:898][873]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.547614
+[2021.02.15-20.20.09:905][874]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.54064
+[2021.02.15-20.20.09:912][875]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.533648
+[2021.02.15-20.20.09:919][876]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.526671
+[2021.02.15-20.20.09:926][877]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.519563
+[2021.02.15-20.20.09:933][878]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.512611
+[2021.02.15-20.20.09:940][879]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.505615
+[2021.02.15-20.20.09:947][880]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.498761
+[2021.02.15-20.20.09:954][881]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.491798
+[2021.02.15-20.20.09:961][882]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.484879
+[2021.02.15-20.20.09:968][883]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.478001
+[2021.02.15-20.20.09:975][884]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.471064
+[2021.02.15-20.20.09:982][885]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.464205
+[2021.02.15-20.20.09:989][886]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.457262
+[2021.02.15-20.20.09:996][887]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.450299
+[2021.02.15-20.20.10:003][888]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.4432
+[2021.02.15-20.20.10:009][889]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.436438
+[2021.02.15-20.20.10:016][890]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.429525
+[2021.02.15-20.20.10:024][891]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.422308
+[2021.02.15-20.20.10:030][892]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.415738
+[2021.02.15-20.20.10:037][893]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.408756
+[2021.02.15-20.20.10:044][894]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.401368
+[2021.02.15-20.20.10:051][895]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.395014
+[2021.02.15-20.20.10:058][896]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.387902
+[2021.02.15-20.20.10:065][897]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.380957
+[2021.02.15-20.20.10:072][898]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.374255
+[2021.02.15-20.20.10:079][899]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.367149
+[2021.02.15-20.20.10:085][900]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.360369
+[2021.02.15-20.20.10:092][901]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.353447
+[2021.02.15-20.20.10:100][902]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.346155
+[2021.02.15-20.20.10:106][903]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.33958
+[2021.02.15-20.20.10:114][904]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.332259
+[2021.02.15-20.20.10:121][905]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.325322
+[2021.02.15-20.20.10:127][906]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.318425
+[2021.02.15-20.20.10:135][907]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.31124
+[2021.02.15-20.20.10:142][908]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.304238
+[2021.02.15-20.20.10:148][909]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.297617
+[2021.02.15-20.20.10:155][910]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.290352
+[2021.02.15-20.20.10:162][911]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.283571
+[2021.02.15-20.20.10:169][912]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.27666
+[2021.02.15-20.20.10:176][913]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.269711
+[2021.02.15-20.20.10:183][914]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.262775
+[2021.02.15-20.20.10:190][915]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.255631
+[2021.02.15-20.20.10:197][916]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.248307
+[2021.02.15-20.20.10:204][917]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.241385
+[2021.02.15-20.20.10:211][918]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.234365
+[2021.02.15-20.20.10:218][919]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.227475
+[2021.02.15-20.20.10:225][920]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.220576
+[2021.02.15-20.20.10:232][921]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.21359
+[2021.02.15-20.20.10:239][922]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.206652
+[2021.02.15-20.20.10:246][923]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.199554
+[2021.02.15-20.20.10:253][924]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.192674
+[2021.02.15-20.20.10:260][925]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.185619
+[2021.02.15-20.20.10:267][926]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.178662
+[2021.02.15-20.20.10:274][927]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.171787
+[2021.02.15-20.20.10:281][928]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.164856
+[2021.02.15-20.20.10:288][929]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.157983
+[2021.02.15-20.20.10:295][930]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.151116
+[2021.02.15-20.20.10:302][931]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.144239
+[2021.02.15-20.20.10:308][932]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.137351
+[2021.02.15-20.20.10:315][933]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.13045
+[2021.02.15-20.20.10:322][934]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.12346
+[2021.02.15-20.20.10:329][935]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.116549
+[2021.02.15-20.20.10:336][936]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.109585
+[2021.02.15-20.20.10:343][937]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.102681
+[2021.02.15-20.20.10:350][938]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.095818
+[2021.02.15-20.20.10:357][939]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.088903
+[2021.02.15-20.20.10:364][940]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.082032
+[2021.02.15-20.20.10:371][941]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.074974
+[2021.02.15-20.20.10:378][942]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.068077
+[2021.02.15-20.20.10:385][943]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.061187
+[2021.02.15-20.20.10:392][944]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.054323
+[2021.02.15-20.20.10:398][945]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.04739
+[2021.02.15-20.20.10:405][946]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.040508
+[2021.02.15-20.20.10:412][947]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.033362
+[2021.02.15-20.20.10:419][948]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.026625
+[2021.02.15-20.20.10:426][949]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.019652
+[2021.02.15-20.20.10:433][950]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.01273
+[2021.02.15-20.20.10:440][951]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 0.005885
+[2021.02.15-20.20.12:529][252]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.992801
+[2021.02.15-20.20.12:536][253]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.985685
+[2021.02.15-20.20.12:543][254]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.978497
+[2021.02.15-20.20.12:551][255]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.971007
+[2021.02.15-20.20.12:558][256]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.964228
+[2021.02.15-20.20.12:564][257]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.957582
+[2021.02.15-20.20.12:571][258]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.950799
+[2021.02.15-20.20.12:578][259]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.944224
+[2021.02.15-20.20.12:584][260]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.937509
+[2021.02.15-20.20.12:591][261]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.930329
+[2021.02.15-20.20.12:599][262]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.92309
+[2021.02.15-20.20.12:605][263]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.916272
+[2021.02.15-20.20.12:613][264]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.908994
+[2021.02.15-20.20.12:619][265]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.902214
+[2021.02.15-20.20.12:626][266]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.895531
+[2021.02.15-20.20.12:633][267]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.888791
+[2021.02.15-20.20.12:640][268]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.881812
+[2021.02.15-20.20.12:647][269]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.874807
+[2021.02.15-20.20.12:654][270]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.867562
+[2021.02.15-20.20.12:661][271]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.860885
+[2021.02.15-20.20.12:667][272]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.854163
+[2021.02.15-20.20.12:674][273]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.847483
+[2021.02.15-20.20.12:681][274]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.840307
+[2021.02.15-20.20.12:689][275]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.833058
+[2021.02.15-20.20.12:695][276]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.826245
+[2021.02.15-20.20.12:702][277]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.819204
+[2021.02.15-20.20.12:709][278]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.812298
+[2021.02.15-20.20.12:716][279]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.805593
+[2021.02.15-20.20.12:723][280]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.798394
+[2021.02.15-20.20.12:730][281]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.791202
+[2021.02.15-20.20.12:737][282]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.784204
+[2021.02.15-20.20.12:744][283]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.777258
+[2021.02.15-20.20.12:751][284]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.770457
+[2021.02.15-20.20.12:758][285]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.763732
+[2021.02.15-20.20.12:765][286]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.756896
+[2021.02.15-20.20.12:772][287]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.74955
+[2021.02.15-20.20.12:779][288]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.742556
+[2021.02.15-20.20.12:786][289]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.736004
+[2021.02.15-20.20.12:793][290]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.728504
+[2021.02.15-20.20.12:800][291]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.721247
+[2021.02.15-20.20.12:807][292]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.71445
+[2021.02.15-20.20.12:814][293]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.707475
+[2021.02.15-20.20.12:821][294]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.700777
+[2021.02.15-20.20.12:828][295]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.694028
+[2021.02.15-20.20.12:834][296]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.687193
+[2021.02.15-20.20.12:841][297]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.680597
+[2021.02.15-20.20.12:849][298]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.672437
+[2021.02.15-20.20.12:856][299]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.66624
+[2021.02.15-20.20.12:863][300]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.658659
+[2021.02.15-20.20.12:870][301]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.651454
+[2021.02.15-20.20.12:877][302]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.644637
+[2021.02.15-20.20.12:883][303]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.637961
+[2021.02.15-20.20.12:890][304]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.630929
+[2021.02.15-20.20.12:897][305]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.624156
+[2021.02.15-20.20.12:904][306]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.617096
+[2021.02.15-20.20.12:911][307]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.610389
+[2021.02.15-20.20.12:918][308]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.603431
+[2021.02.15-20.20.12:925][309]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.596681
+[2021.02.15-20.20.12:932][310]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.589804
+[2021.02.15-20.20.12:938][311]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.5833
+[2021.02.15-20.20.12:945][312]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.576325
+[2021.02.15-20.20.13:446][384]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2021.02.15-20.20.16:091][765]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.993082
+[2021.02.15-20.20.16:098][766]LogBlueprintUserMessages: [BP_VRPawn_C_2147482529] Time To Death: 2.986056
+[2021.02.15-20.20.19:452][249]LogWindowsDesktop: Alt-F4 pressed!
+[2021.02.15-20.20.19:452][249]LogSlate: Request Window 'MyProject (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.02.15-20.20.19:465][249]LogSlate: Window 'MyProject (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.02.15-20.20.19:465][249]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.15-20.20.19:471][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-20.20.19:471][249]LogEngine: All Windows Closed
+[2021.02.15-20.20.19:471][249]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.02.15-20.20.19:471][249]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.02.15-20.20.19:472][250]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.02.15-20.20.19:472][250]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2021.02.15-20.20.19:506][250]LogInit: Display: PreExit Game.
+[2021.02.15-20.20.19:524][250]LogWorld: BeginTearingDown for /Game/Caw
+[2021.02.15-20.20.19:525][250]LogWorld: UWorld::CleanupWorld for Caw, bSessionEnded=true, bCleanupResources=true
+[2021.02.15-20.20.19:525][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.15-20.20.20:238][250]LogHMD: SteamVR Shutting down.
+[2021.02.15-20.20.20:254][250]LogExit: Preparing to exit.
+[2021.02.15-20.20.20:254][250]LogMoviePlayer: Shutting down movie player
+[2021.02.15-20.20.20:257][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.15-20.20.20:258][250]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.02.15-20.20.20:259][250]LogExit: Game engine shut down
+[2021.02.15-20.20.20:262][250]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000023F061F40C0), frame # 7250
+[2021.02.15-20.20.20:262][250]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023F06362400), frame # 7250
+[2021.02.15-20.20.20:263][250]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023F06342400), frame # 7250
+[2021.02.15-20.20.20:264][250]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023F06349600), frame # 7250
+[2021.02.15-20.20.20:264][250]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023F5CCFEC00), frame # 7250
+[2021.02.15-20.20.20:276][250]LogExit: Object subsystem successfully closed.
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module AutomationController (316)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module AutomationWorker (314)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module Voice (312)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module NavigationSystem (307)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module OculusMR (304)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (302)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (300)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module WebMMedia (298)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module PlanarCut (290)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module CharacterAI (288)
+[2021.02.15-20.20.20:285][250]LogModuleManager: Shutting down and abandoning module SessionServices (286)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module LiveCoding (284)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module LevelSequence (282)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (280)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module MovieScene (278)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (274)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module AudioMixerCore (273)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (270)
+[2021.02.15-20.20.20:286][250]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module Synthesis (264)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (262)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module OculusInput (260)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (258)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GooglePAD (256)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module EditableMesh (254)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (252)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module CableComponent (250)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AudioCapture (248)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (247)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AssetTags (244)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (242)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AppleImageUtils (240)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AndroidPermission (238)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module TemplateSequence (236)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MediaCompositing (234)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (230)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (228)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (226)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (224)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (222)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (220)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MeshConversion (218)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module DynamicMesh (216)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (214)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GeometricObjects (212)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (210)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (208)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module GeometryCache (206)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ChaosNiagara (204)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ChaosCloth (202)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module BackChannel (200)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AutomationUtils (198)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module UObjectPlugin (196)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module SoundFields (194)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module SignificanceManager (192)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (190)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (186)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module ActorSequence (184)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module UdpMessaging (182)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module TcpMessaging (180)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (178)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (176)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (174)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (172)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (170)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (168)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (166)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (164)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (162)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapController (160)
+[2021.02.15-20.20.20:532][250]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (158)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module MagicLeapAR (156)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AugmentedReality (155)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (152)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module SignalProcessing (149)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module NiagaraCore (146)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module FacialAnimation (144)
+[2021.02.15-20.20.20:532][250]LogModuleManager: Shutting down and abandoning module AnimationSharing (142)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (140)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Paper2D (138)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (136)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (134)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (132)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module PacketHandler (130)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (128)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module MediaAssets (126)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Overlay (124)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module FunctionalTesting (122)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module MessageLog (120)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module UMG (118)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module SlateReflector (116)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Slate (114)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module SlateCore (112)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module MRMesh (110)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Messaging (108)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (106)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module XAudio2 (104)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Networking (102)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Core (100)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module ImageWrapper (96)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module InputCore (94)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Settings (92)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module PhysXCooking (90)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module ChaosSolvers (88)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (87)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module Chaos (84)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module AVEncoder (80)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (76)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module SteamVRInput (74)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2021.02.15-20.20.20:533][250]LogHMD: Freeing OpenVRDLLHandle.
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
+[2021.02.15-20.20.20:533][250]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module Media (51)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (46)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module NiagaraShader (44)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module VariantManagerContent (42)
+[2021.02.15-20.20.20:560][250]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.02.15-20.20.20:561][250]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.02.15-20.20.20:561][250]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.02.15-20.20.20:562][250]LogD3D11RHI: Shutdown
+[2021.02.15-20.20.20:562][250]LogD3D11RHI: CleanupD3DDevice
+[2021.02.15-20.20.20:567][250]LogExit: Exiting.
+[2021.02.15-20.20.20:571][250]Log file closed, 02/15/21 13:20:20
